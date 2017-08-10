@@ -128,7 +128,7 @@ class ANN(object):
 
 def main():
     X, Y = my_util.getData()
-    model = ANN([20, 10])
+    model = ANN([500, 300])
     model.fit(X, Y)
 
 
